@@ -1087,6 +1087,24 @@ a.menu-toggle {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.25) 25%, transparent 56%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#73000000', endColorstr='#00000000', GradientType=0);  /* IE6-9 */
 }
+
+.source, .source a {
+  color: transparent;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.source:hover {
+	color: #FFFFFF;
+}
+
+.source:hover a {
+	color: #ffa000;
+}
+
 .intro-content {
 	display: table-cell;
 	vertical-align: middle;
