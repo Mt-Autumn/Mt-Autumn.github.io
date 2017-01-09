@@ -1427,7 +1427,7 @@ a.menu-toggle {
 }
 @media only screen and (max-width:400px) {
 	#game {
-		padding-bottom: 21rem;
+		padding-bottom: 27rem;
 	}
 	.game-content .image-part {
 		width: 230px;
