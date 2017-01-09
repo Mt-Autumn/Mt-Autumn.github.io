@@ -1356,7 +1356,7 @@ a.menu-toggle {
 }
 .game-content .image-part {
 	margin: 0 auto;
-	height: 0px;
+	height: 100px;
 	background-image: url("../images/appdesign.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1394,18 +1394,20 @@ a.menu-toggle {
  */
 
 @media only screen and (max-width:1024px) {
+	#game {
+		padding-bottom: 30rem;
+	}
 	.game-content .right-side, .game-content .left-side {
 		padding: 0 3% 24px;
-		width: 35%;
+		width: 50%;
 	}
 	.game-content .image-part {
 		height: 600px;
-		width: 30%;
 	}
 }
 @media only screen and (max-width:768px) {
 	#game {
-		padding-bottom: 27rem;
+		padding-bottom: 400px;
 	}
 	.game-content .right-side, .game-content .left-side {
 		position: static;
@@ -1427,7 +1429,7 @@ a.menu-toggle {
 }
 @media only screen and (max-width:400px) {
 	#game {
-		padding-bottom: 27rem;
+		padding-bottom: 500px;
 	}
 	.game-content .image-part {
 		width: 230px;
@@ -1446,7 +1448,7 @@ a.menu-toggle {
  #demo {
  	background: #FFFFFF;
  	overflow: hidden;
-	padding-top: 15rem;
+	padding-top: 12rem;
 	padding-bottom: 5rem;
  }
 
@@ -1493,17 +1495,6 @@ a.menu-toggle {
   * demo
   * -
   */
-
-	@media only screen and (max-width:1024px) {
-		.demo-content .right-side, .game-content .left-side {
-			padding: 0 3% 24px;
-			width: 35%;
-		}
-		.demo-content .image-part {
-			height: 600px;
-			width: 30%;
-		}
-	}
 	@media only screen and (max-width:768px) {
 		#demo {
 			padding-bottom: 27rem;
@@ -1518,17 +1509,10 @@ a.menu-toggle {
 			margin-right: auto;
 			padding-bottom: 0;
 		}
-		.demo-content .image-part {
-			width: 300px;
-			position: absolute;
-			bottom: -630px;
-			left: 50%;
-			margin-left: -150px;
-		}
 	}
 	@media only screen and (max-width:400px) {
 		#demo {
-			padding-bottom: 21rem;
+			padding-bottom: 17rem;
 		}
 		.demo-content .image-part {
 			width: 230px;
