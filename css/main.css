@@ -141,7 +141,7 @@ p.lead {
 }
 
 em, i, strong, b {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	line-height: 3rem;
 	font-style: normal;
 	font-weight: normal;
@@ -151,6 +151,7 @@ em, i {
 }
 strong, b {
 	font-family: 'Roboto', serif;
+	font-weight: bold;
 }
 small {
 	font-size: 1.1rem;
@@ -1804,10 +1805,10 @@ footer ul li {
 	color: #FFFFFF;
 }
 .footer-main .footer-logo {
-	width: 162px;
-	height: 39px;
+	width: 248px;
+	height: 60px;
 	background: url("../images/footer-logo.png") no-repeat center;
-	background-size: 162px 39px;
+	background-size: 248px 60px;
 	margin: -.6rem 0 2.1rem -.3rem;
 	display: block;
 }
