@@ -1,15 +1,4 @@
 /**
- * =================================================================== 
- *
- *  Lhander 1.0 | Vendor/Third Party CSS 
- *  url: styleshout.com
- *  01-11-2016
- *
- * =================================================================== 
- */
-
-
-/**
  * jQuery FlexSlider v2.5.0
  * http://www.woothemes.com/flexslider/
  *
@@ -18,7 +7,7 @@
  * http://www.gnu.org/licenses/gpl-2.0.html
  *
  * Contributing author: Tyler Smith (@mbmufffin)
- * 
+ *
  * ===================================================================
  */
 
@@ -82,10 +71,10 @@ html[xmlns] .flexslider .slides {
 
 
 /**
- * Magnific Popup CSS 
+ * Magnific Popup CSS
  * ===================================================================
  */
- 
+
 .mfp-bg {
   top: 0;
   left: 0;

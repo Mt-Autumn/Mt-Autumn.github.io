@@ -1,30 +1,17 @@
 /**
- * ===================================================================
- *
- *  Lhander v1.0 Main Stylesheet
- *  url: styleshout.com
- *  01-11-2016
- * -------------------------------------------------------------------
- *
- *	TOC:
- *	01. webfonts and iconfonts
- *	02. base style overrides
+ * TOC:
+ * 01. webfonts and iconfonts
+ * 02. base style overrides
  * 03. preloader
  * 04. forms
  * 05. buttons
  * 06. common styles
  * 07. header styles
  * 08. intro section
- * 09. process section
+ * 09. game section
  * 10. features section
- * 11. pricing section
- * 12. testimomials section
- * 13. faq section
- *	14. ad-section
- *	15. call-to-action section
- *	16. footer
- *
- * ===================================================================
+ * 15. call-to-action section
+ * 16. footer
  */
 
 /**
@@ -58,7 +45,7 @@ html, body {
 }
 body {
 	background: #14181E;
-	font-family: "Roboto", serif;
+	font-family: Roboto, serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
 	color: #737373;
@@ -87,7 +74,7 @@ a:hover, a:focus {
  */
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	color: #252525;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -97,7 +84,7 @@ h3, .h03, h4, .h04 {
 	margin-bottom: 1.8rem;
 }
 h5, .h05, h6, .h06 {
-	font-family: "Roboto";
+	font-family: Roboto;
 	margin-bottom: 1.2rem;
 }
 
@@ -142,7 +129,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "Roboto", serif;
+	font-family: Roboto, serif;
 	font-size: 1.8rem;
 	line-height: 1.8;
 	color: #737373;
@@ -160,10 +147,10 @@ em, i, strong, b {
 	font-weight: normal;
 }
 em, i {
-	font-family: "Roboto", serif;
+	font-family: Roboto, serif;
 }
 strong, b {
-	font-family: "Roboto", serif;
+	font-family: Roboto, serif;
 }
 small {
 	font-size: 1.1rem;
@@ -206,7 +193,7 @@ blockquote cite a, blockquote cite a:visited {
 	border: none;
 }
 abbr {
-	font-family: "Roboto", serif;
+	font-family: Roboto, serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
@@ -315,7 +302,7 @@ table {
 	border-width: 0;
 	width: 100%;
 	max-width: 100%;
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 }
 th, td {
 	padding: 1.5rem 3rem;
@@ -324,7 +311,7 @@ th, td {
 }
 th {
 	color: #252525;
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 }
 td {
 	line-height: 1.5;
@@ -435,7 +422,7 @@ select {
 	outline: none;
 	vertical-align: middle;
 	color: #737373;
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1.5rem;
 	line-height: 3rem;
 	border-radius: 3px;
@@ -506,7 +493,7 @@ select:focus {
 	border: 1px solid #d2fef9;
 }
 label, legend {
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1.4rem;
 	margin-bottom: .6rem;
 	color: #404040;
@@ -556,7 +543,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	display: inline-block;
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1.6rem;
 	height: 5rem;
 	line-height: 5rem;
@@ -569,7 +556,7 @@ input[type="button"] {
 	text-align: center;
 	white-space: nowrap;
 	border: none;
-	border-radius: 1000px;
+	border-radius: 0px;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -657,7 +644,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 }
 .section-intro h1 {
-	font-family: "Roboto", serif;
+	font-family: Roboto, serif;
 	font-size: 4.8rem;
 	color: #252525;
 	line-height: 1.25;
@@ -824,7 +811,7 @@ a.menu-toggle {
 
 /* main-nav-wrap */
 #main-nav-wrap {
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 11.5px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
@@ -1110,7 +1097,7 @@ a.menu-toggle {
 }
 .intro-content h1 {
 	color: #FFFFFF;
-	font-family: "Roboto", serif;
+	font-family: Roboto, serif;
 	font-size: 5.4rem;
 	line-height: 1.334;
 	max-width: 800px;
@@ -1119,7 +1106,7 @@ a.menu-toggle {
 }
 .intro-content h5 {
 	color: rgba(255, 255, 255, 0.6);
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1.8rem;
 	line-height: 1.667;
 	margin-bottom: 0.6rem;
@@ -1140,7 +1127,7 @@ a.menu-toggle {
 	line-height: 6rem;
 	padding: 0 3rem !important;
 	margin-top: 1.8rem;
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	letter-spacing: .4rem;
@@ -1348,7 +1335,7 @@ a.menu-toggle {
 .game-content {
 	position: relative;
 	text-align: center;
-	height: 200px;
+	height: 100px;
 }
 .game-content .right-side,
 .game-content .left-side {
@@ -1369,7 +1356,7 @@ a.menu-toggle {
 }
 .game-content .image-part {
 	margin: 0 auto;
-	height: 300px;
+	height: 0px;
 	background-image: url("../images/appdesign.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1381,7 +1368,7 @@ a.menu-toggle {
 	background: #e65100;
 	color: #FFFFFF;
 	border-radius: 100%;
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	content: attr(data-item);
 	display: inline-block;
 	font-size: 18px;
@@ -1448,6 +1435,65 @@ a.menu-toggle {
 		margin-left: -115px;
 	}
 }
+
+/**
+ * ===================================================================
+ * demo section
+ *
+ * -------------------------------------------------------------------
+ */
+
+ #demo {
+ 	background: #FFFFFF;
+ 	overflow: hidden;
+	padding-top: 15rem;
+	padding-bottom: 5rem;
+ }
+
+#demo .button {
+	border-color: #ffa000;
+	color: #ffa000;
+	height: 6.6rem;
+	line-height: 6rem;
+	padding: 0 3rem !important;
+	margin-top: 1.8rem;
+	font-family: Roboto, sans-serif;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: .4rem;
+}
+
+#demo .button:hover, #demo .button:focus {
+	color: #ffca28;
+	border-color: #ffca28;
+}
+
+ .demo-content {
+ 	position: relative;
+ 	text-align: center;
+ }
+ .demo-content .item[data-item]::before {
+ 	background: #e65100;
+ 	color: #FFFFFF;
+ 	border-radius: 100%;
+ 	font-family: Roboto, sans-serif;
+ 	content: attr(data-item);
+ 	display: inline-block;
+ 	font-size: 18px;
+ 	height: 42px;
+ 	width: 42px;
+ 	line-height: 42px;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	margin-bottom: 1.5rem;
+ }
+
+ /**
+  * responsive:
+  * demo
+  * -
+  */
+
 
 
 /**
@@ -1609,10 +1655,14 @@ a.menu-toggle {
 	display: block;
 	line-height: 60px;
 }
+
+/* Enable once game is on steam
 .cta-content .stores li .button:hover,
 .cta-content .stores li .button:focus {
 	background: #ffa000;
 }
+*/
+
 .cta-content .stores li .button i {
 	font-size: 18px;
 	line-height: inherit;
@@ -1672,7 +1722,7 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.5rem;
 	line-height: 2.7rem;
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 }
 footer a, footer a:visited {
 	color: #ffa000;
@@ -1701,7 +1751,7 @@ footer ul li {
 	font-size: 1.5rem;
 }
 .footer-main ul li {
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	list-style: none;
 }
 .footer-main ul a, .footer-main ul a:visited {
@@ -1730,7 +1780,7 @@ footer ul li {
 	background: #232933;
 	border: none;
 	width: 100%;
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	color: #bababa;
 	margin-bottom: 1.8rem;
 }
@@ -1738,7 +1788,7 @@ footer ul li {
 	display: none;
 }
 .footer-main .footer-subscribe .subscribe-form .subscribe-message {
-	font-family: "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	color: #FFFFFF;
 }
 .footer-main .footer-subscribe .subscribe-form .subscribe-message i {
