@@ -1096,7 +1096,7 @@ a.menu-toggle {
 }
 
 .source, .source a {
-  color: transparent;
+  opacity: 0.5;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -1104,12 +1104,22 @@ a.menu-toggle {
 	transition: all 0.3s ease-in-out;
 }
 
+.source a {
+	color: #ffa000;
+}
+
 .source:hover {
 	color: #FFFFFF;
+	opacity: 1;
 }
 
 .source:hover a {
 	color: #ffa000;
+	opacity: 1;
+}
+
+.source a:hover {
+	color: #ffca28;
 }
 
 .intro-content {
@@ -1354,13 +1364,12 @@ a.menu-toggle {
 #game {
 	background: #FFFFFF;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-bottom: 16rem;
 	overflow: hidden;
 }
 .game-content {
 	position: relative;
 	text-align: center;
-	height: 100px;
 }
 .game-content .right-side,
 .game-content .left-side {
@@ -1379,15 +1388,15 @@ a.menu-toggle {
 .game-content .left-side {
 	left: 0;
 }
-.game-content .image-part {
+.game-content {
 	margin: 0 auto;
-	height: 100px;
-	background-image: url("../images/appdesign.jpg");
+	height: auto;
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	background-size: contain;
+	padding-bottom: 20rem;
 }
 .game-content .item[data-item]::before {
 	background: #e65100;
@@ -1425,14 +1434,15 @@ a.menu-toggle {
 	.game-content .right-side, .game-content .left-side {
 		padding: 0 3% 24px;
 		width: 50%;
+
 	}
-	.game-content .image-part {
-		height: 600px;
+	.game-content {
+		padding-bottom: 13rem;
 	}
 }
 @media only screen and (max-width:768px) {
 	#game {
-		padding-bottom: 400px;
+		padding-bottom: 0rem;
 	}
 	.game-content .right-side, .game-content .left-side {
 		position: static;
@@ -1444,22 +1454,13 @@ a.menu-toggle {
 		margin-right: auto;
 		padding-bottom: 0;
 	}
-	.game-content .image-part {
-		width: 300px;
-		position: absolute;
-		bottom: -630px;
-		left: 50%;
-		margin-left: -150px;
+	.game-content {
+		padding-bottom: 5rem;
 	}
 }
 @media only screen and (max-width:400px) {
 	#game {
-		padding-bottom: 500px;
-	}
-	.game-content .image-part {
-		width: 230px;
-		bottom: -540px;
-		margin-left: -115px;
+		padding-bottom: 0rem;
 	}
 }
 
@@ -1594,6 +1595,17 @@ a.menu-toggle {
 	line-height: 1.765;
 	color: #ffa000;
 	margin-bottom: 1.8rem;
+}
+.service-content a {
+	color: #ffa000;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.service-content a:hover {
+	color: #ffca28;
 }
 
 /**
@@ -1778,7 +1790,7 @@ footer a, footer a:visited {
 	color: #ffa000;
 }
 footer a:hover, footer a:focus {
-	color: #FFFFFF;
+	color: #ffca28;
 }
 footer h4 {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.03);
