@@ -58,11 +58,6 @@ body {
 
 a, a:visited {
 	color: #0087cc;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus {
 	color: #ff7b29;
@@ -760,27 +755,17 @@ header .logo a {
 	height: 60px;
 	background: url("../images/footer-logo.png") no-repeat center;
 	background-size: 248px 60px;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
 }
 .sticky {
 	position: fixed;
 	background: inherit;
 	top: 0;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
 }
 .sticky .logo a {
 	width: 42px;
 	height: 42px;
 	background: url("../images/logo.png") no-repeat center;
 	background-size: 42px 42px;
-	-moz-transition: all 0.5s ease-in-out;
 }
 
 /**
@@ -1251,7 +1236,7 @@ a.menu-toggle {
  */
 
 .popup-modal {
-	max-width: 420px;
+	max-width: 800px;
 	background: #FFFFFF;
 	position: relative;
 	margin: 0 auto;  /* close */
@@ -1714,8 +1699,6 @@ a.menu-toggle {
 	background: #ff8f00;
 	color: #FFFFFF;
 	margin-right: 12px;
-	display: block;
-	line-height: 60px;
 }
 
 /* Enable once game is on steam
@@ -1752,7 +1735,6 @@ a.menu-toggle {
 	}
 	.cta-content .stores li .button {
 		width: 300px;
-		display: block;
 		margin-left: auto !important;
 		margin-right: auto !important;
 		margin-bottom: 1.8rem;

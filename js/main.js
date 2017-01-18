@@ -75,7 +75,6 @@
 	   $('#testimonial-slider').flexslider({
 	   	namespace: "flex-",
 	      controlsContainer: "",
-	      animation: 'slide',
 	      controlNav: true,
 	      directionNav: true,
 	      smoothHeight: true,
